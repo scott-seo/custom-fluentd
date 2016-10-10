@@ -5,6 +5,7 @@ ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
 
 RUN gem install fluent-plugin-parser
 RUN gem install fluent-plugin-multi-format-parser
+RUN gem install net-http-persistent -v 2.9.4
 RUN gem install fluent-plugin-loggly
 
 USER root
