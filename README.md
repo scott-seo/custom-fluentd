@@ -4,7 +4,7 @@
 
 ## Configuration
 
-```
+```xml
 <source>
   @type forward
   port 24224
@@ -21,7 +21,7 @@
     format none
   </pattern>
   key_name log
-  hash_value_field raw
+  hash_value_field message
 </filter>
 
 <filter **>
